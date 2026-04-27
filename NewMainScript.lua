@@ -1,6 +1,6 @@
 --[[
-	rewritten vape lite from xylex!
-	all credits to xylex for making vapelite and for me to redo
+	rewritten vape lite from nerv4
+	all credits to nerv4 for making vapelite and for me to redo
 ]]
 local run = function(func) func() end
 local cloneref = cloneref or function(obj) return obj end
@@ -717,10 +717,10 @@ elseif game.PlaceId == 6872274481 then
 			Tooltip = 'Extends attack reach'
 		})
 		Value = Reach:CreateSlider({
-			Name = 'Range',
+			Name = 'Nerv4',
 			Min = 0,
-			Max = 18,
-			Default = 18,
+			Max = 118,
+			Default = 118,
 			Function = function(val)
 				if Reach.Enabled then
 					bedwars.CombatConstant.RAYCAST_SWORD_CHARACTER_DISTANCE = val + 2

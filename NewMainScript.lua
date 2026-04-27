@@ -826,7 +826,7 @@ elseif game.PlaceId == 6872274481 then
 		local PingBased
 		local Options = {Value='Blatant'}
 		HitFix = vapelite:CreateModule({
-			Name = 'HitFix',
+			Name = 'Nerv4 hit fix',
 			Function = function(callback)
 				local function getPing()
 					local stats = cloneref(game:GetService("Stats"))
